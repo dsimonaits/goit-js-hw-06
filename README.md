@@ -4,7 +4,7 @@ Module 6 - DOM
 
 ---
 
-Task 1
+<h2>Task 1</h2>
 In HTML, there is a list of categories, ul#categories.
 
 <ul id="categories">
