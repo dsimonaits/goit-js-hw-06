@@ -172,15 +172,15 @@ Write a script that responds to changes in the value of input#font-size-control 
 Write a script to manage the login form.<br>
 
 &#60;form class="login-form"><br>
-<label><br>
+&#60;label><br>
 Email<br>
-<input type="email" name="email" /><br>
+&#60;input type="email" name="email" /><br>
 </label><br>
-<label><br>
+&#60;label><br>
 Password<br>
-<input type="password" name="password" /><br>
+&#60;input type="password" name="password" /><br>
 </label><br>
-<button type="submit">Login</button><br>
+&#60;button type="submit">Login</button><br>
 
 </form&#62;<br>
 
