@@ -2,6 +2,8 @@
 
 Module 6 - DOM
 
+---
+
 Task 1
 In HTML, there is a list of categories, ul#categories.
 
@@ -52,6 +54,8 @@ Elements: 3
 Category: Technologies
 Elements: 5
 
+---
+
 Task 2
 In HTML, there is an empty ul#ingredients list.
 
@@ -74,6 +78,8 @@ Will create a separate <li> element. Be sure to use the document.createElement()
 Will add the ingredient name as its text content.
 Will add the item class to the element.
 Then will insert all <li> to the ul#ingredients list in a single operation.
+
+---
 
 Task 3
 Write a script to create a gallery of images from an array of data. There is a list, ul.gallery, in HTML.
@@ -99,6 +105,8 @@ alt: "Group of Horses Running",
 },
 ];
 
+---
+
 Task 4
 The counter consists of a span and buttons, which, when clicked, should increase and decrease its value by one.
 
@@ -111,11 +119,16 @@ The counter consists of a span and buttons, which, when clicked, should increase
 Create a variable, counterValue, that will store the current counter value and initialize it with 0.
 Add listeners for clicks on the buttons; inside them, increase or decrease the value of the counter.
 Update the interface with the new value of the variable counterValue.
+
+---
+
 Task 5
 Write a script that, when typing in the input#name-input input (input event), substitutes its current value into span#name-output. If the input is empty, the span should display the "Anonymous" string.
 
 <input type="text" id="name-input" placeholder="Please enter your name" />
 <h1>Hello, <span id="name-output">Anonymous</span>!</h1>
+
+---
 
 Task 6
 Write a script that, when focus on input is lost (blur event), checks its contents for the correct number of entered characters.
@@ -143,12 +156,16 @@ border-color: #4caf50;
 border-color: #f44336;
 }
 
+---
+
 Task 7
 Write a script that responds to changes in the value of input#font-size-control (input event) and changes the inline style of span#text by updating the font-size property. As a result, the text size will change responding to scrollbar dragging.
 
 <input id="font-size-control" type="range" min="16" max="96" />
 <br />
 <span id="text">Abracadabra!</span>
+
+---
 
 Task 8
 Write a script to manage the login form.
@@ -170,6 +187,9 @@ The page must not reload when the form is submitted.
 If the form has empty fields, display alert saying that all fields must be filled in.
 As soon as the user has filled in all the fields and submitted the form, collect the field values into an object, where the field name will be the property name and the field value will be the property value. Use the elements property to access form elements.
 Display the object with the entered data in the console and clear the values of the form fields using the reset method.
+
+---
+
 Task 9
 Write a script that changes the background colors of the <body> element via inline style when clicking on button.change-color and outputs the color value to span.color.
 
@@ -183,6 +203,8 @@ Use the getRandomHexColor function to generate a random color.
 function getRandomHexColor() {
 return `#${Math.floor(Math.random() * 16777215) .toString(16) .padStart(6, 0)}`;
 }
+
+---
 
 Task 10 (optional)
 Write a script to create and clear a collection of elements. The user enters the number of elements into input and clicks the New button, after which a collection is rendered. When you click on the Clear button, the collection is cleared.
