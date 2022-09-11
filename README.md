@@ -112,9 +112,9 @@ Task 4
 The counter consists of a span and buttons, which, when clicked, should increase and decrease its value by one.
 
 &#60;div id="counter">
-<button type="button" data-action="decrement">-1</button>
-<span id="value">0</span>
-<button type="button" data-action="increment">+1</button>
+&#60;button type="button" data-action="decrement">-1</button>
+&#60;span id="value">0</span>
+&#60;button type="button" data-action="increment">+1</button>
 </div&#62;
 
 Create a variable, counterValue, that will store the current counter value and initialize it with 0.
