@@ -182,7 +182,7 @@ Password<br>
 </label><br>
 <button type="submit">Login</button><br>
 
-</form><br>
+</form&#62;<br>
 
 1. Form submission (form.login-form) must be processed on the submit event.
 2. The page must not reload when the form is submitted.
