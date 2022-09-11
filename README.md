@@ -56,7 +56,7 @@ Elements: 5
 
 ---
 
-Task 2
+<h2>Task 2</h2>
 In HTML, there is an empty ul#ingredients list.
 
 &#60;ul id="ingredients"></ul&#62;
@@ -81,7 +81,7 @@ Then will insert all &#60;li&#62; to the ul#ingredients list in a single operati
 
 ---
 
-Task 3
+<h2>Task 3</h2>
 Write a script to create a gallery of images from an array of data. There is a list, ul.gallery, in HTML.
 
 &#60;ul class="gallery"></ul&#62;
@@ -108,7 +108,7 @@ alt: "Group of Horses Running",
 
 ---
 
-Task 4
+<h2>Task 4</h2>
 The counter consists of a span and buttons, which, when clicked, should increase and decrease its value by one.
 
 &#60;div id="counter">
@@ -123,7 +123,7 @@ Update the interface with the new value of the variable counterValue.
 
 ---
 
-Task 5
+<h2>Task 5</h2>
 Write a script that, when typing in the input#name-input input (input event), substitutes its current value into span#name-output. If the input is empty, the span should display the "Anonymous" string.
 
 &#60;input type="text" id="name-input" placeholder="Please enter your name" /&#62;
@@ -131,7 +131,7 @@ Write a script that, when typing in the input#name-input input (input event), su
 
 ---
 
-Task 6
+<h2>Task 6</h2>
 Write a script that, when focus on input is lost (blur event), checks its contents for the correct number of entered characters.
 
 &#60;input
@@ -159,7 +159,7 @@ border-color: #f44336;
 
 ---
 
-Task 7
+<h2>Task 7</h2>
 Write a script that responds to changes in the value of input#font-size-control (input event) and changes the inline style of span#text by updating the font-size property. As a result, the text size will change responding to scrollbar dragging.
 
 &#60;input id="font-size-control" type="range" min="16" max="96" />
@@ -168,7 +168,7 @@ Write a script that responds to changes in the value of input#font-size-control 
 
 ---
 
-Task 8
+<h2>Task 8</h2>
 Write a script to manage the login form.
 
 &#60;form class="login-form">
@@ -192,7 +192,7 @@ Display the object with the entered data in the console and clear the values of 
 
 ---
 
-Task 9
+<h2>Task 9</h2>
 Write a script that changes the background colors of the <body> element via inline style when clicking on button.change-color and outputs the color value to span.color.
 
 &#60;div class="widget">
@@ -209,7 +209,7 @@ return `#${Math.floor(Math.random() * 16777215) .toString(16) .padStart(6, 0)}`;
 
 ---
 
-Task 10 (optional)
+<h2>Task 10 (optional)</h2>
 Write a script to create and clear a collection of elements. The user enters the number of elements into input and clicks the New button, after which a collection is rendered. When you click on the Clear button, the collection is cleared.
 
 &#60;div id="controls">
