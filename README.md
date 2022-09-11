@@ -55,7 +55,7 @@ Elements: 5
 Task 2
 In HTML, there is an empty ul#ingredients list.
 
-<ul id="ingredients"></ul>
+&#60;ul id="ingredients"></ul&#62;
 
 In JavaScript, there is an array of strings.
 
@@ -74,10 +74,11 @@ Will create a separate <li> element. Be sure to use the document.createElement()
 Will add the ingredient name as its text content.
 Will add the item class to the element.
 Then will insert all <li> to the ul#ingredients list in a single operation.
+
 Task 3
 Write a script to create a gallery of images from an array of data. There is a list, ul.gallery, in HTML.
 
-<ul class="gallery"></ul>
+&#60;ul class="gallery"></ul&#62;
 
 Use an array of objects images to create <img> elements nested in <li>. Use template strings and the insertAdjacentHTML() method to create markup.
 
