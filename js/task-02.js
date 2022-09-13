@@ -15,5 +15,3 @@ ingredients.map((ingredient) => {
   ingredientMarkup.classList.add("item");
   ingredientsRef.append(ingredientMarkup);
 });
-
-console.log(ingredientsRef);
