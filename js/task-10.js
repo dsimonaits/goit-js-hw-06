@@ -27,8 +27,6 @@ controlsRef.addEventListener("input", (event) => {
   amount = event.target.value;
 });
 
-createBtnRef.addEventListener("click", createBoxes());
-
 destroyBtnRef.addEventListener("click", () => {
   destroyBoxes();
   size = 20;
